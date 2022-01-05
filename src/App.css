@@ -1,38 +1,94 @@
-.App {
+
+:root {
+  --anton: anton, sans-serif;
+}
+
+
+body { 
+  font-family: var(--anton);
+ 
+}
+.center_Page { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.all_Images { 
+list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center;
+height: max-content;
+flex-wrap: wrap;
+}
+
+.btn { 
+  margin-top: 50px;
+  margin-bottom: 50px;
+    width: 186px;
+  height: 46px;
+  left: 636px;
+  top: 337px;
+
+background: #F8F5F3;
+border-radius: 10px;
+  border: none;
+}
+
+li {
+  position: absolute;
+  /* transform: translateY(50%); */
+}
+input {
+  margin-top: 5rem;
+  margin-bottom: 25px;
+  width: 397px;
+height: 27px;
+left: 530px;
+top: 270px;
+
+background: #C4C4C4;
+border-radius: 10px;
+  justify-self: center;
+}
+
+.next_Gif { 
+  display: flex;
+  flex-direction: column;
+
+}
+.gifHolder { 
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+.title_search { 
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 15%;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.title  { 
+  font-size: 44px;
+  color: #ffff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+p {
+  color: #ffff;
+  text-align: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
